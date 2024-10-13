@@ -25,7 +25,7 @@ export default function HomeScreen() {
             </View>
 
             {/* Location Section */}
-            <View className='w-full p-5 mt-5 text-black bg-secondary flex flex-col justify-center items-center rounded-2xl'>
+            <View className='w-full p-5 mt-5 text-black bg-secondary flex flex-col justify-center items-center rounded-2xl shadow-lg shadow-black'>
               <View className='w-full flex flex-row items-center'>
                 <Locationicon />
                 <Text className='text-2xl font-bold pl-1 w-full'>
@@ -35,7 +35,7 @@ export default function HomeScreen() {
             </View>
 
             {/* Temperature Section */}
-            <View className='w-full p-5 mt-5 text-black bg-secondary flex flex-col justify-center items-center rounded-2xl'>
+            <View className='w-full p-5 mt-5 text-black bg-secondary flex flex-col justify-center items-center rounded-2xl shadow-lg shadow-black'>
               <View className='w-full flex flex-row pb-1 items-center'>
                 <Temperatureicon />
                 <Text className='text-3xl pl-1 font-bold'>
@@ -48,7 +48,7 @@ export default function HomeScreen() {
             </View>
 
             {/* Rainfall Section */}
-            <View className='w-full p-5 mt-5 text-black bg-secondary flex flex-col justify-center items-center rounded-2xl'>
+            <View className='w-full p-5 mt-5 text-black bg-secondary flex flex-col justify-center items-center rounded-2xl shadow-lg shadow-black'>
               <View className='w-full flex flex-row pb-1 items-center'>
                 <Rainfallicon />
                 <Text className='text-3xl pl-1 font-bold'>
@@ -61,7 +61,7 @@ export default function HomeScreen() {
             </View>
 
             {/* Humidity Section */}
-            <View className='w-full p-5 my-5 text-black bg-secondary flex flex-col justify-center items-center rounded-2xl'>
+            <View className='w-full p-5 my-5 text-black bg-secondary flex flex-col justify-center items-center rounded-2xl shadow-lg shadow-black'>
               <View className='w-full flex flex-row pb-1 items-center'>
                 <Humidityicon />
                 <Text className='text-3xl pl-1 font-bold'>
